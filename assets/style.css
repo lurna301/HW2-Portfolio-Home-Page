@@ -1,0 +1,18 @@
+
+:root{
+
+    --mainBackgroundColor: black;
+    --mainTextColor: white;
+}
+
+
+body {
+
+    background-color: var(--mainBackgroundColor);
+}
+
+p {
+
+    color: var(--mainTextColor);
+}
+
