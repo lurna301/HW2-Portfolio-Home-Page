@@ -14,7 +14,7 @@
   <body>
 
 
-<header>
+<header id="home">
  
     
 
@@ -24,10 +24,10 @@
 
 
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ul> 
     </nav>
@@ -54,13 +54,13 @@
     <main class="aboutMe">
 
 
-    <section class="myContent">
+    <section class="myContent" id="aboutMe">
 
     <h2> About Me </h2>
 
-    <figure>
+    <figure >
 
-        <img src="#" alt="Photo of Lauren Anderson">
+      <img src="./assets/images/woman-user-woman-account-profile-person-avatar-png-icon-free-477707.png" alt="Photo of Lauren Anderson">
 
     </figure>
 
@@ -75,16 +75,31 @@
 
 </section>
 
-<section class="myContent" >
+<section class="myContent" id="projects">
 
     <h2> Projects </h2>
 <div class="project">
-    <img src="#" alt="place holder">
-    <img src="#" alt="place holder">
-    <img src="#" alt="place holder">
-    <img src="#" alt="place holder">
-    <img src="#" alt="place holder">
-    <img src="#" alt="place holder">
+   
+   <section class="projectCard" id="firstChild" >
+    <header>  Project 1 </header>
+    <a href="#"><img src="./assets/images/digital-revolution.webp" alt="place holder"></a>
+   </section>
+   
+   <section class="projectCard" >
+    <header>  Project 2 </header>
+    <a href="#"> <img src="./assets/images/digital_transformation_shutterstock.jpg" alt="place holder"></a>
+   </section>
+
+   <section class="projectCard" >
+    <header>  Project 3 </header>
+   <a href="#"> <img src="./assets/images/touch keys.jpg" alt="place holder"> </a>
+   </section>
+  
+   <section class="projectCard" >
+    <header>  Project 4 </header>
+   <a href="#" ><img src="./assets/images/digital_transformation.pagespeed.1561728097.webp" alt="place holder"> </a>
+   </section>
+
 </div>
 </section>
 
@@ -97,7 +112,7 @@
 
 
 
-<aside class="contact">
+<aside class="contact" >
      <section class="linkWithMe" >
 
         <h2> Link With Me </h2>
@@ -114,7 +129,7 @@
 
     <section class="chat" >
 
-        <h2> Chat With Me </h2>
+        <h2 id="#contact"> Chat With Me </h2>
         <address>Email:  <a href="#">laurenagraphicdesign@gmail.com</a> </address>
         <address>123 My Street Athens, GA 30625</address>
     </section>
