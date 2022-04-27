@@ -234,7 +234,7 @@ figure img{
 
   .projectCard img{
    
-        width: 100%;
+        max-width: 25%;
         min-width: 200px;
       }
   #firstChild{
